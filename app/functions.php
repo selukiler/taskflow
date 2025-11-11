@@ -12,6 +12,8 @@ function obtenerClasePrioridad(array $task,  &$clases)
         case 'baja':
             $clases .= ' priority-baja';
             break;
+
+        default:
     }
 }
 function renderizarTarea(array $tarea)
